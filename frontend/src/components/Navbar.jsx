@@ -4,7 +4,7 @@ import { Link,NavLink, useNavigate } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
 
 const Navbar = () => {
-  const adminUrl="http://localhost:5174/"
+  const adminUrl="https://prescripto-full-stack-admin-bmaj.onrender.com/"
   const navigate = useNavigate()
 
   const [showMenu, setShowMenu] = useState(false)
